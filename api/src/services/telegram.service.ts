@@ -1,6 +1,6 @@
 import axios from "axios";
-import { QuoteData, MarketResults } from "../types/market.js";
-import { fetchAllMarket } from "./market.service.js";
+import { QuoteData, MarketResults } from "../types/market";
+import { fetchAllMarket } from "./market.service";
 
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN!;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID!;

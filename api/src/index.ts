@@ -1,9 +1,9 @@
 import "dotenv/config";
 import express from "express";
-import marketRoutes from "./routes/market.routes.js";
-import telegramRoutes from "./routes/telegram.routes.js";
-import { startCronJobs } from "./cron.js";
-import { poll, runJob } from "./services/telegram.service.js";
+import marketRoutes from "./routes/market.routes";
+import telegramRoutes from "./routes/telegram.routes";
+import { startCronJobs } from "./cron";
+import { poll, runJob } from "./services/telegram.service";
 
 const app = express();
 app.use(express.json());

@@ -1,6 +1,6 @@
 import axios from "axios";
 import YahooFinance from "yahoo-finance2";
-import { QuoteData, MarketResults, SYMBOLS, DISPLAY_ORDER } from "../types/market.js";
+import { QuoteData, MarketResults, SYMBOLS, DISPLAY_ORDER } from "../types/market";
 
 const yf = new YahooFinance({ suppressNotices: ["yahooSurvey"] });
 

@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { fetchAllMarket } from "../services/market.service.js";
+import { fetchAllMarket } from "../services/market.service";
 
 export async function getMarket(_req: Request, res: Response): Promise<void> {
   try {

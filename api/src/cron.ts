@@ -1,5 +1,5 @@
 import cron from "node-cron";
-import { runJob } from "./services/telegram.service.js";
+import { runJob } from "./services/telegram.service";
 
 export function startCronJobs(): void {
   cron.schedule("0 7 * * *", () => runJob(), { timezone: "Asia/Seoul" });

@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { sendBriefing } from "../controllers/telegram.controller.js";
+import { sendBriefing } from "../controllers/telegram.controller";
 
 const router = Router();
 

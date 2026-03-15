@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { runJob } from "../services/telegram.service.js";
+import { runJob } from "../services/telegram.service";
 
 export async function sendBriefing(req: Request, res: Response): Promise<void> {
   const chatId: string | undefined = req.body?.chat_id;
